@@ -10,9 +10,9 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install **_spac
 
 `pip install -U spacy`
 
-Download a specific **_spacy model_** 
+Download a specific **_spacy model_**. We're using the large model for better results. 
 
-`python -m spacy download en_core_web_sm`
+`python -m spacy download en_core_web_lg`
 
 ### 
 
