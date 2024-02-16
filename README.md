@@ -1,7 +1,7 @@
 # __Practice Exam Questions__
 
 
-## This project is centered around answering questions for the PCPP certificate exam.
+## This project is centered around document similarity analysis for text-based question and answers. We compare two pieces of text to compare a user's answer to the correct answer
 
 
 ### _How to Install and Run the Project_
