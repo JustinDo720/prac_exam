@@ -25,10 +25,5 @@ def check_ans(ans):
     return (similarity_percentage * 100) > 77.0
 
 
-print("What does composition act as?")
-user_ans = input()
-
-result = check_ans(user_ans)
-print(result)
 
 

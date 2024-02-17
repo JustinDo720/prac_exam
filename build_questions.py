@@ -47,3 +47,4 @@ def initialize_questions():
     else:
         question_df = pd.DataFrame(columns=['question', 'correct answer'])
         return question_df
+
