@@ -4,17 +4,14 @@ import spacy
 nlp = spacy.load("en_core_web_lg")
 
 
-def check_ans(ans):
+def check_ans(ans, actual_answer):
     """
     Checking the user's answer and match with the actual answer
 
     :param ans: user's input that represent the answer to a question
+    :param actual_answer: the correct answer that is used to compare with our user's answer
     :return: boolean value that reflects the result to a certain question
     """
-
-    # For now, we'll use a static answer
-    # TODO: fetch answers from csv file
-    actual_answer = "Composition allows a class to be projected as a container of different classes."
 
     # Checking the similarity between our user's response vs the correct answer
     ans = nlp(ans)
